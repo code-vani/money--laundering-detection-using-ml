@@ -59,15 +59,6 @@ I used **IBM’s synthetic financial transaction dataset** (available on Kaggle)
 
 ---
 
-## 📊 Test Results (LI-Large_Trans.csv)  
-
-| Model         | Precision | Recall | F1-Score | Accuracy | ROC AUC |
-|---------------|-----------|--------|----------|----------|---------|
-| Random Forest | 0.91      | 0.92   | 0.87     | 0.87     | 0.8687  |
-| XGBoost       | 0.91      | 0.92   | 0.88     | 0.88     | 0.8687  |
-
----
-
 ## ✅ Key Learnings  
 - **Imbalanced datasets are tricky** → undersampling really helped.  
 - Outliers in `Amount Paid` and `Amount Received` were strong laundering indicators.  
